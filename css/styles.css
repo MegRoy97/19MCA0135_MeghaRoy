@@ -1,0 +1,157 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif; /*size/height-length, font-family*/
+    padding:0;
+    margin:0;
+    background-color:#fff;
+    margin-bottom: 70px;
+  }
+  
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    /* margin: 5px; */
+    margin: 0;
+    height: 50px;
+    font-size: 14px;    
+}
+
+.form-input{
+    border: none;
+    border-bottom: 2px solid #35424a; 
+    margin: 0;
+}
+  li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  
+  /* Global */
+  .container{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+ 
+  
+  /* Showcase */
+  #showcase{
+    min-height:400px;
+    text-align:center;
+    color: #000000;
+    /* margin-top: 103px; */
+  }
+  
+  #showcase h1{
+    /* margin-top:100px; */
+    color: #e8491d;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+  
+  #showcase p{
+    font-size:20px;
+  }
+  
+  #matchtext{
+    color:#fff;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+  #matchtext div{
+    /* background-color: #e8491d; */
+    padding: 8px;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+  }
+
+  #matchtext div:nth-child(odd){
+    background-color: #e8491d;
+  }
+
+  #matchtext div:nth-child(even){
+    background-color: #bacaf5;
+    color: #333;
+  }
+
+
+
+  .titleyear{
+    padding:0px;
+    margin: 0px;
+  }
+ 
+  
+  /* Media Queries */
+  @media(max-width: 600px){
+    header #icon,
+    /*section#listo.navList,*/
+    header nav,
+    header nav li,
+    #search h1,
+    #search form,
+    #boxes .box,
+    article#main-col2,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+    #main-col{
+      float: right;
+      width: 45%;
+      margin-top: 28px;
+  
+    }
+    section#listo.navList{
+      float: left;
+      margin-top: 28px;
+      width: 20%;
+  
+    }
+    /*#main-col{
+      margin-top: 28px;
+      width: 60%;
+    }*/
+    header{
+      padding-bottom:20px;
+    }
+  
+    #showcase h1{
+      margin-top:40px;
+    }
+  
+    #search button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #search form input[type="text"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+  
+  .page-title{
+    font-size: 36px;
+    float: left;
+    width: 50%;
+  }
+  .page-title2{
+    font-size: 48px;
+    float: right;
+    width: 40%;
+  }
