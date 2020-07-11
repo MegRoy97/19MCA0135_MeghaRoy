@@ -9,8 +9,8 @@ The styling of index.html is defined here
 
 data/movies.json
 This json file contains the movies data. The data was taken from the following 2 datasets:
-https://github.com/FEND16/movie-json-data/blob/master/json/top-rated-indian-movies-01.json
-https://github.com/FEND16/movie-json-data/blob/master/json/top-rated-indian-movies-02.json
+<a href="https://github.com/FEND16/movie-json-data/blob/master/json/top-rated-indian-movies-01.json">Dataset1</a>
+<a href="https://github.com/FEND16/movie-json-data/blob/master/json/top-rated-indian-movies-02.json">Dataset2</a>
 
 js/main.js
 This file helps to match the text entered by the user with a matching movie name or year. Returns the movie name, year of release and a brief storyline about the movie that matches the user entered text.
