@@ -14,13 +14,7 @@ const searchMovies = async searchtext => {
         // matchtext.style.padding = "0px";
     }
     else{
-        printMatchedValues(autocomplete)
-    }
-}
-
-const printMatchedValues = autocomplete => {
-    
-    const matchtexthtml = autocomplete.map(ac =>
+        const matchtexthtml = autocomplete.map(ac =>
         `<div>
         <h3 class="titleyear">${ac.title} (${ac.year})<h3>
         <h6 class="titleyear">(${ac.storyline})</h6>
@@ -28,7 +22,9 @@ const printMatchedValues = autocomplete => {
     ).join('')
     // matchtext.style.padding = "7px";
     matchtext.innerHTML = matchtexthtml
+    }
 }
+
 
 
 searchBar.addEventListener('input', ()=> searchMovies(searchBar.value))
