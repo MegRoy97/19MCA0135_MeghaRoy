@@ -1,4 +1,4 @@
-# PowerschoolAssignment
+# Powerschool Coding Assignment
 Technical Assignment given by Powerschool to autocomplete text
 <ul>
   <li>
